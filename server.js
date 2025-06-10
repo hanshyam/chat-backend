@@ -42,7 +42,7 @@ io.on("connection",(socket)=>{
 app.use(express.json({limit:"4mb"}));
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: 'http://localhost:5173', 
+  origin: 'https://chat-frontend-git-main-ghanshyam-patidars-projects.vercel.app', 
   credentials: true
 }));
 
