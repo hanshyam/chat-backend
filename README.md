@@ -27,29 +27,4 @@ This is the **backend server** for a real-time Chat Application built using **No
 
 ---
 
-## 📁 Project Structure
-backend/
-├── config/
-│ ├── db.js # MongoDB connection
-│ └── GenerateJwtToken.js # JWT generation helper
-├── controllers/
-│ ├── userController.js # User-related logic
-│ └── messageController.js # Message-related logic
-├── middleware/
-│ ├── errorHandler.js # Global error handling
-│ ├── multer.js # Image upload middleware
-│ └── tokenVerification.js # JWT auth verification
-├── models/
-│ ├── userModel.js # Mongoose User schema
-│ └── messageModel.js # Mongoose Message schema
-├── public/assets/images/ # Uploaded assets
-├── routes/
-│ ├── userRoute.js # User routes
-│ └── messageRoute.js # Message routes
-├── utils/
-│ └── cloudinary.js # Cloudinary upload integration
-├── .env # Environment config
-├── constants.js # Application constants
-├── .gitignore
-└── server.js # Entry point of the backend
 
